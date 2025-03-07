@@ -59,42 +59,32 @@
         </div>
     </nav>
 
-    <!-- SERVICES-HEADING -->
+    <!-- SIGNUP-HEADING -->
     <h4 class="my-5 text-light text-warning-emphasis">
-        <i class="bi bi-buildings"></i> Compulsory Services
+        <i class="bi bi-person-fill-up"></i> SIGNUP
     </h4>
 
-    <!-- SERVICES-IMAGE -->
-    <div class="card">
+    <!-- SIGNUP-FORM -->
+    <form>
 
-        <!-- card-image -->
-        <img src="img/person-working-on-laptop.jpg" class="card-img-top" alt="person-working-on-laptop.jpg">
+        <!-- NAME -->
+        <label class="form-label" for="username"><i class="bi bi-envelope-fill"></i> Enter name:</label>
+        <input type="text" class="form-control" id="username" placeholder="Username">
+        <div class="form-text">Please enter your valid name.</div>
+        
+        <!-- EMAIL -->
+        <label class="mt-4 form-label" for="useremail"><i class="bi bi-envelope-fill"></i> Enter email:</label>
+        <input type="email" class="form-control" id="useremail" placeholder="Email">
+        <div class="form-text">Please enter your valid email.</div>
 
-        <!-- card-body -->
-        <div class="card-body text-center">
-            <i class="bi bi-laptop"></i> Person working on laptop
-        </div>
-    </div>
+        <!-- PASSWORD -->
+        <label class="mt-4 form-label" for="userpass"><i class="bi bi-pass-fill"></i> Enter password:</label>
+        <input type="password" class="form-control" id="userpass" placeholder="Password">
+        <div class="form-text">Please enter your valid password.</div>
 
-    <!-- MANPOWER-SERVICES-LIST -->
-    <h4 class="my-5 text-warning-emphasis"><i class="bi bi-person-arms-up"></i> Manpower - working staff</h4>
-    <ul class="list-group">
-        <li class="list-group-item"><i class="bi bi-house-door"></i>        House Keeping.</li>
-        <li class="list-group-item"><i class="bi bi-cash-coin"></i>         Clerk Rates.</li>
-        <li class="list-group-item"><i class="bi bi-coin"></i>              Entrepreneur.</li>
-        <li class="list-group-item"><i class="bi bi-book"></i>              Teaching Line.</li>
-    </ul>
-
-    <!-- OTHER-SERVICES-LIST -->
-    <h4 class="my-5 text-warning-emphasis"><i class="bi bi-building"></i> Other services from ITS Agency</h4>
-    <ul class="list-group">
-        <li class="list-group-item"><i class="bi bi-newspaper"></i>     Insurance - Sector.</li>
-        <li class="list-group-item"><i class="bi bi-bank"></i>          Acountant SIP/FD/RS Of Seprated Companies && Banks.</li>
-        <li class="list-group-item"><i class="bi bi-wallet2"></i>       Purchase & Selling - Properties, Real State.</li>
-        <li class="list-group-item"><i class="bi bi-bank2"></i>         Providing Loan Facilities From Seprate Banks.</li>
-        <li class="list-group-item"><i class="bi bi-person-vcard"></i>  From Talent & Job Operator.</li>
-        <li class="list-group-item"><i class="bi bi-bandaid"></i>       Health Care.</li>
-    </ul>
+        <!-- SUBMIT -->
+        <button type="submit" class="mt-5 w-100 btn btn-warning">Submit</button>
+    </form>
     </main>
 </body>
 </html>

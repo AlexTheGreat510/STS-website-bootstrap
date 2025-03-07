@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>STS Agency</title>
+
+    <!-- ICON -->
+    <link rel="icon" type="image/x-icon" href="img/icon-1.jpg">
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!-- SCRIPT -->
+    <script defer type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body>
+
+    <!-- MAIN-CONTENT -->
+    <main class="p-3 m-auto">
+
+    <!-- WEBSITE-NAVBAR -->
+    <nav class="navbar">
+
+        <!-- NAVBAR -->
+        <div class="navbar-container container-fluid my-3">
+
+            <!-- NAVBAR-LEFT -->
+            <div class="navbar-left d-flex">
+
+                <!-- website-label -->
+                <a class="fs-4 navbar-brand" href="index.html">
+                    <i class="bi bi-building"></i><span class="text-warning-emphasis">STS</span> AGENCY
+                </a>
+
+                <!-- theme-select -->
+                <select class="form-select" id="theme-select">
+                    <option>dark</option>
+                    <option>light</option>
+                </select>
+            </div>
+
+            <!-- NAVBAR-RIGHT -->
+            <div class="navbar-right d-flex">
+
+                <!-- signup-link -->
+                <a class="me-2 fs-4 nav-link" href="signup.html">
+                    <i class="bi bi-person-fill-up"></i>Signup
+                </a>
+
+                <!-- login-link -->
+                <a class="ms-2 fs-4 nav-link" href="login.html">
+                    <i class="bi bi-person-fill-down"></i>Signin
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- SIGNIN-HEADING -->
+    <h4 class="my-5 text-light text-warning-emphasis">
+        <i class="bi bi-person-fill-down"></i> SIGNIN
+    </h4>
+
+    <!-- SIGNIN-FORM -->
+    <form>
+        
+        <!-- EMAIL -->
+        <label class="form-label" for="useremail"><i class="bi bi-envelope-fill"></i> Enter email:</label>
+        <input type="email" class="form-control" id="useremail" placeholder="Email">
+        <div class="form-text">Please enter your valid email.</div>
+
+        <!-- PASSWORD -->
+        <label class="mt-4 form-label" for="userpass"><i class="bi bi-pass-fill"></i> Enter password:</label>
+        <input type="password" class="form-control" id="userpass" placeholder="Password">
+        <div class="form-text">Please enter your valid password.</div>
+
+        <!-- SUBMIT -->
+        <button type="submit" class="mt-5 w-100 btn btn-warning">Submit</button>
+    </form>
+    </main>
+</body>
+</html>
